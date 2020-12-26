@@ -1,0 +1,180 @@
+/* FORMATAÇÕES GERAIS */
+* {
+    padding:0;
+    margin: 0;
+}
+
+body{
+    font-size: 1em;
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+    background: #cec9c9ad;
+}
+/* FIM DAS FORMATAÇÕES GERAIS*/
+
+/* CABEÇALHO */
+header{
+    background-color: #d63ed6;
+    text-align: center;
+    padding: 15px;    
+}
+
+h1{
+    font-size: 3em;
+}
+h4{
+    color: black;
+}
+#logo, #menu{
+    padding: 10px;
+}
+
+a{
+    text-decoration: none;
+}
+
+header a:link, a:visited{
+    color: #FFF;
+    padding: 8px 12px;
+
+}
+
+header a:hover{
+    color:#d63ed6;
+    background: #FFF;
+}
+
+
+/* FIM DO CABEÇALHO */
+
+/* AREA PRINCIPAL */
+
+.artigos {
+   /* border-style: dotted; */
+    width: 80%;
+    margin: 0px auto;
+    background: #cecacaad;
+}
+
+#post{
+    width: 95%;
+    float: left;
+    text-align: center;
+} 
+
+#slidebar{
+    width: 30%;
+    float: right;
+    background: orange;
+}
+
+
+#tittle{
+    padding-top: 15px;
+    color: black;
+    text-align: center;
+}
+
+#tittle:hover{
+    text-decoration:underline ;
+}
+
+.postagem{
+    padding-left: 7%;
+    padding-bottom: 25px;
+}
+
+#post #postagem-ufpb .read,#post .postagem .read{
+    color: black; 
+}
+
+#post #postagem-ufpb .read:hover, #post .postagem .read:hover{
+    color: white;
+    background:black; 
+}
+
+.paragrafo{
+    text-align: justify;
+}
+
+#text-intro{
+    text-align: justify;
+}
+
+.lista{
+    padding-left: 35px;
+}
+
+.imagem{
+    padding-top: 15px;
+    align-items: center; 
+}
+
+.img{
+    width: 288px;
+    align-items: left;
+    height: 508px;
+    float: center;
+}
+
+.img1{
+    width: 248px;
+    align-items: left;
+    height: 508px;
+    float: center;
+}
+
+.img2{
+    width: 328px;
+    align-items: left;
+    height: 508px;
+    float: center;
+}
+
+/* INICIO DO FOOTER */ 
+footer{
+    padding: 25px;
+
+}
+
+#rodape{
+    align-items: center;
+
+}
+
+#description {
+   
+    text-align: center;
+    font-size: 1.3em;
+    width: 90%;
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+
+#contato{
+    float: left;
+}
+
+.icons{
+    padding-right: 15px;
+}
+
+#nome{
+    float: right;
+    font-size: 1.1em;
+}
+
+#copy{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 1.5em;
+}
+
+/* CLASS E IDS GERAIS */
+.white{
+    color: white;
+}
+
+.clear{
+    clear: both;
+}
+
